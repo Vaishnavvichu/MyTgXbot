@@ -1,5 +1,4 @@
 const TelegramBot = require('node-telegram-bot-api');
-require('dotenv').config({ path: 'env.env' });
 const axios = require('axios');
 const token = "6357409038:AAGEawR6-xAmDkUyQjOXrCAUpgeLZSHPxMI";
 const bot = new TelegramBot(token, { polling: true });
@@ -128,4 +127,4 @@ bot.on('polling_error', (error) => {
   console.error(`Polling error: ${error}`);
 });
 
-    module.exports = buttonMessage;
+module.exports = buttonMessage;
