@@ -127,3 +127,5 @@ bot.on('callback_query', async (query) => {
 bot.on('polling_error', (error) => {
   console.error(`Polling error: ${error}`);
 });
+
+    module.exports = buttonMessage;
